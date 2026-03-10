@@ -11,6 +11,7 @@ print("Dieses Programm berechnet ihren Body-Mass-Index (BMI)")
 w = float(input("Bitte dein Gewicht in Kilogramm: "))  ## Gewichtseingabe
 h = float(input("Dann bitte deine Größe in Metern: ")) ## Körpergrößeneingabe
 
+
 ## Berechnung vom BMI - Die Formel für den BMI mit rundung auf die erste Nachkommastelle
 bmi = round(w / pow(h, 2), 1)
 
@@ -21,7 +22,7 @@ print("Ihr BMI Beträgt: " + str(bmi))
 ## BMI Kategorisierungen - Die verschiedenen BMI Kategorien und deren Grenzwerte
 
 bmi_categories = [
-    (18.5, "Untergewichtig"),
+    (18.5, "Untergewicht"),
     (24.5, "Normalgewicht"),
     (29.9, "Übergewichtig"),
     (34.9, "Adipositas Grad 1"),
