@@ -24,7 +24,7 @@ print("Ihr BMI Beträgt: " + str(bmi))
 bmi_categories = [
     (18.5, "Untergewicht"),
     (24.5, "Normalgewicht"),
-    (29.9, "Übergewichtig"),
+    (29.9, "Übergewicht"),
     (34.9, "Adipositas Grad 1"),
     (39.9, "Adipositas Grad 2"),
     (float('inf'), "Adipositas Grad 3"),
