@@ -34,3 +34,4 @@ for threshold, label in bmi_categories:
     if bmi < threshold:
         print("Sie haben " + label)
         break
+
